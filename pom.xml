@@ -45,7 +45,15 @@
 					</cloudHubDeployment>
 					<classifier>mule-application</classifier>
 				</configuration>
-
+			   <executions>
+				  <execution>
+				    <id>deploy</id>
+					<phase>deploye</phase>
+					<goals>
+					  <goal>deploy</goal>
+					</goals>  
+				  </execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
